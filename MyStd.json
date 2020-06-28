@@ -1,0 +1,31 @@
+{
+	"nodes": [
+		{
+			"id": "44414b09-a5aa-40ba-917f-c6a5d116c4b5",
+			"title": "MBA Program",
+			"group": 1
+		},
+		{
+			"id": "a9a3578a-962b-40d8-bb70-e9dddfe7c657",
+			"title": ":CSLO:1:CSLO 1",
+			"group": 1
+		},
+		{
+			"id": "6101ac61-1296-4a14-9f34-6d525e1706e1",
+			"title": "MBA Program:PSLO:PSLO1",
+			"group": 1
+		}
+	],
+	"links": [
+		{
+			"source": "44414b09-a5aa-40ba-917f-c6a5d116c4b5",
+			"associationType": "isPartOf",
+			"target": "a9a3578a-962b-40d8-bb70-e9dddfe7c657"
+		},
+		{
+			"source": "44414b09-a5aa-40ba-917f-c6a5d116c4b5",
+			"associationType": "isPartOf",
+			"target": "6101ac61-1296-4a14-9f34-6d525e1706e1"
+		}
+	]
+}
